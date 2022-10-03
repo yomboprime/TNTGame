@@ -1,0 +1,15 @@
+{
+	"classes": [
+		"testVehicle1Scene",
+		"island1Scene",
+		"testVehicle1",
+		"TENTEAstroSencillo",
+		"TENTECentroMovilControl",
+		"TENTEBaseAlertaGalactica",
+		"TENTECamionFurgon",
+		"TENTELondonBus",
+		"Sun10m",
+		"Sun100m",
+		"crater1Scene"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"type": "sceneInfo",
+	"shadowsEnabled": true,
+	"gravity": 9.8,
+	"environment": {
+		"ambientLight": [ 0.08, 0.2, 0.25 ]
+	},
+	"players": [
+		{
+			"avatar": "_class_TENTECamionFurgon_001"
+		}
+	],
+	"cameras": [
+		{
+			"name": "Camera",
+			"orbit": "_class_TENTECamionFurgon_001"
+		},
+		{
+			"name": "Camera2",
+			"orbit": "_class_TENTELondonBus_001"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"type": "groundVehicle",
+	"modelPath": "TENTE/CentroMovilControl.glb",
+	"physicProperties": {
+		"mass": 30,
+		"collision": "boxes"
+	},
+	"maxVelocity": 25,
+	"maxMotorForce": 18,
+	"maxBrakeForce": 0.6,
+	"maxSteeringAngle": 0.6,
+	"wheels": [
+		{
+			"wheelName": "wheel1",
+			"radius": 0.55,
+			"steering": 1,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheel2",
+			"radius": 0.55,
+			"steering": 0,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheel3",
+			"radius": 0.55,
+			"steering": -0.5,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheel4",
+			"radius": 0.55,
+			"steering": 1,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheel5",
+			"radius": 0.55,
+			"steering": 0,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheel6",
+			"radius": 0.55,
+			"steering": -0.5,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.5
+		}
+	]
+}

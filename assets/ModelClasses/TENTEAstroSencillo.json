@@ -1,0 +1,42 @@
+{
+	"type": "groundVehicle",
+	"modelPath": "TENTE/AstroSencillo.glb",
+	"physicProperties": {
+		"mass": 20,
+		"collision": "boxes"
+	},
+	"maxVelocity": 25,
+	"maxMotorForce": 30,
+	"maxBrakeForce": 0.6,
+	"maxSteeringAngle": 0.6,
+	"wheels": [
+		{
+			"wheelName": "wheelFrontLeft",
+			"radius": 0.55,
+			"steering": 1,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheelFrontRight",
+			"radius": 0.55,
+			"steering": 1,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheelRearLeft",
+			"radius": 0.55,
+			"steering": 0,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.5
+		},
+		{
+			"wheelName": "wheelRearRight",
+			"radius": 0.55,
+			"steering": 0,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.5
+		}
+	]
+}

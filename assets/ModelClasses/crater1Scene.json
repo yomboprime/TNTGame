@@ -1,0 +1,28 @@
+{
+	"type": "sceneInfo",
+	"shadowsEnabled": true,
+	"gravity": 4.0,
+	"environment": {
+		"sunName": "Sun_class_Sun100m_",
+		"ambientLight": [ 0.25, 0.22, 0.2 ],
+		"sky": {
+			"type": "color",
+			"color": [ 0, 0, 0 ]
+		}
+	},
+	"players": [
+		{
+			"avatar": "Cube_class_TENTECentroMovilControl_"
+		}
+	],
+	"cameras": [
+		{
+			"name": "Camera",
+			"orbit": "Cube_class_TENTECentroMovilControl_"
+		},
+		{
+			"name": "Camera1",
+			"lookAt": "Cube_class_TENTECentroMovilControl_"
+		}
+	]
+}

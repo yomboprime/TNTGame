@@ -1,0 +1,8 @@
+{
+	"type": "dynamic",
+	"modelPath": "crater1/Base Alerta Galactica.glb",
+	"physicProperties": {
+		"mass": 0,
+		"collision": "boxes"
+	}
+}

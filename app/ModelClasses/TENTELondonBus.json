@@ -1,0 +1,42 @@
+{
+	"type": "groundVehicle",
+	"modelPath": "TENTE/LondonBus.glb",
+	"physicProperties": {
+		"mass": 40,
+		"collision": "boxes"
+	},
+	"maxVelocity": 45,
+	"maxMotorForce": 30,
+	"maxBrakeForce": 0.7,
+	"maxSteeringAngle": 0.6,
+	"wheels": [
+		{
+			"wheelName": "Rueda1",
+			"radius": 0.45,
+			"steering": 1,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.35
+		},
+		{
+			"wheelName": "Rueda2",
+			"radius": 0.45,
+			"steering": 0,
+			"isLeftWheel": false,
+			"suspensionRestLength": 0.35
+		},
+				{
+			"wheelName": "Rueda3",
+			"radius": 0.45,
+			"steering": 1,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.35
+		},
+		{
+			"wheelName": "Rueda4",
+			"radius": 0.45,
+			"steering": 0,
+			"isLeftWheel": true,
+			"suspensionRestLength": 0.35
+		}
+	]
+}

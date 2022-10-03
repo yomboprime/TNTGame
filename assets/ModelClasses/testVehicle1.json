@@ -1,0 +1,42 @@
+{
+	"type": "groundVehicle",
+	"modelPath": "testVehicle1/testVehicle1.glb",
+	"physicProperties": {
+		"mass": 20,
+		"collision": "boxes"
+	},
+	"maxVelocity": 25,
+	"maxMotorForce": 20,
+	"maxBrakeForce": 0.6,
+	"maxSteeringAngle": 0.9,
+	"wheels": [
+		{
+			"wheelName": "wheelFrontLeft",
+			"radius": 1,
+			"steering": 1,
+			"isLeftWheel": true,
+			"suspensionRestLength": 1
+		},
+		{
+			"wheelName": "wheelFrontRight",
+			"radius": 1,
+			"steering": 1,
+			"isLeftWheel": false,
+			"suspensionRestLength": 1
+		},
+		{
+			"wheelName": "wheelRearLeft",
+			"radius": 1,
+			"steering": 0,
+			"isLeftWheel": true,
+			"suspensionRestLength": 1
+		},
+		{
+			"wheelName": "wheelRearRight",
+			"radius": 1,
+			"steering": 0,
+			"isLeftWheel": false,
+			"suspensionRestLength": 1
+		}
+	]
+}
